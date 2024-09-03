@@ -27,8 +27,11 @@ npm-*
 /tools
 /firmwares
 /drivers
+/download
 
 
 # generated translation files
 /translations
 /locale
+
+package-lock.json
