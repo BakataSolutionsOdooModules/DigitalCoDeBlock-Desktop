@@ -3,7 +3,7 @@
   "productName": "DigitalCoDeBlock",
   "description": "DigitalCoDeBlock as a self-contained desktop application",
   "author": "Openblock.cc <contact@openblock.cc> (http://www.openblock.cc/) & Digital CoDeBlock Team ",
-  "version": "2.5.3",
+  "version": "0.2.3",
   "license": "MIT",
   "scripts": { 
     "construct": "npm install && npm run fetch:all && npm run build",
