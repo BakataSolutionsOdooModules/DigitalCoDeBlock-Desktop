@@ -6,7 +6,7 @@
   "version": "0.2.3",
   "license": "MIT",
   "scripts": { 
-    "construct": "npm install && npm run fetch:all && npm run build",
+    "construct": "npm install && npm run fetch:all && npm run build:dist",
     "postinstall": "electron-builder install-app-deps",
     "clean": "rimraf ./dist ./static ./external-resources ./tools ./translations ./firmwares ./drivers ./download ./node_modules",
     "i18n:src": "mkdirp translations/core && format-message extract --out-file translations/core/en.json src/main/**.js",
@@ -95,6 +95,9 @@
     "rimraf": "^3.0.2",
     "sudo-prompt": "^9.2.1",
     "uuid": "^8.3.2",
-    "webpack": "^4.43.0"
+    "webpack": "^4.43.0",
+
+    "cross-var": "1.1.0",
+    "dotenv-cli": "3.0.0"
   }
 }
