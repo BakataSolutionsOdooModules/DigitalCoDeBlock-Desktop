@@ -1,7 +1,7 @@
 directories:
   buildResources: buildResources
   output: dist
-extraFiles: ['LICENSE', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
+extraFiles: ['LICENSE.OpenBlock', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
 
 appId: bkt.digitalcodeblock.desktop
 productName: "DigitalCoDeBlockDesktop"
