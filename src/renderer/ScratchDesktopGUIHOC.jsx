@@ -22,7 +22,8 @@ import {
     openLoadingProject,
     closeLoadingProject,
     openTelemetryModal,
-    openUpdateModal
+    openUpdateModal,
+    openBetaModal
 } from 'digitalcodeblock-gui/src/reducers/modals';
 import {setUpdate} from 'digitalcodeblock-gui/src/reducers/update';
 
@@ -210,6 +211,7 @@ const ScratchDesktopGUIHOC = function (WrappedComponent) {
                 ]}
                 onClickLogo={this.handleClickLogo}
                 onClickCheckUpdate={this.handleClickCheckUpdate}
+                onClickBetaMessage={this.handleBetaMessage}
                 onClickUpdate={this.handleClickUpdate}
                 onAbortUpdate={this.handleAbortUpdate}
                 onClickInstallDriver={this.handleClickInstallDriver}
